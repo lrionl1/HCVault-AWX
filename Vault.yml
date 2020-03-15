@@ -6,7 +6,7 @@
   
     - name: Display Username from Vault
       debug:
-        msg: "{{ ansible_user }}"
+        msg: "{{ ansible_username }}"
         
     - name: Display Password from Vault
       debug:
