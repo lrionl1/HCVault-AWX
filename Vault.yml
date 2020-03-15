@@ -12,4 +12,5 @@
       debug:
         msg: "{{ ansible_password }}"
         
-      
+    - name: Test connection to host
+      ping:    
