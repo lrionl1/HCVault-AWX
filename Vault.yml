@@ -1,6 +1,6 @@
 ---
 - name: Show credentials from vault
-  hosts: localhost
+  hosts: all
   gather_facts: false
   tasks:
   
