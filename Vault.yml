@@ -1,4 +1,9 @@
 ---
+- name: Prepare
+  task:
+  
+    - name: prepare
+      msg: "prepare"
 - name: Show credentials from vault
   hosts: all
   gather_facts: false
